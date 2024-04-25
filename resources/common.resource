@@ -13,3 +13,4 @@ Create Token
     ${token}    Set Variable    ${response.json()}[token]
     Set Suite Variable    ${token}
     Log To Console    ${token}
+
